@@ -28,6 +28,7 @@ def search(term, name='artist'):
     return response.json()
  
 master = Tk()
+master.wm_title("MiniDLNA REST API gui (by blha303)")
 windows = PanedWindow()
 windows.pack(fill=BOTH, expand=1)
 textbox = Text(windows)
