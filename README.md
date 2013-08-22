@@ -1,0 +1,1 @@
+I made this because I really wanted to be able to search my media server with Python. I need to write a longer README here.
