@@ -11,6 +11,7 @@ import requests
 import json
 
 hostname = "home.blha303.com.au"
+port = "5000"
 url = "http://%s:%s/api/DETAILS" % (hostname, port if port else "5000")
 fields = ['ARTIST', 'ID', 'PATH', 'SIZE', 'TIMESTAMP', 'TITLE', 'DURATION', 'BITRATE',
           'SAMPLERATE', 'CREATOR', 'ALBUM', 'GENRE', 'COMMENT', 'CHANNELS', 'DISC',
